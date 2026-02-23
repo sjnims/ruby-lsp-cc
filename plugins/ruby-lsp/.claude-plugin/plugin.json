@@ -18,10 +18,9 @@
         ".rb": "ruby",
         ".rake": "ruby",
         ".gemspec": "ruby",
-        ".ru": "ruby"
-      },
-      "restartOnCrash": true,
-      "maxRestarts": 3
+        ".ru": "ruby",
+        ".erb": "erb"
+      }
     }
   }
 }
