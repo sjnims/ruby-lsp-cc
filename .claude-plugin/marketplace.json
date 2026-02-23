@@ -1,0 +1,24 @@
+{
+  "name": "ruby-lsp-cc",
+  "owner": {
+    "name": "Steve Nims",
+    "email": "sjnims@gmail.com",
+    "url": "https://github.com/sjnims"
+  },
+  "metadata": {
+    "description": "Claude Code marketplace providing ruby-lsp integration for Ruby development",
+    "version": "0.1.0",
+    "pluginRoot": "./plugins"
+  },
+  "license": "MIT",
+  "plugins": [
+    {
+      "name": "ruby-lsp",
+      "source": "./plugins/ruby-lsp",
+      "description": "ruby-lsp integration providing Ruby diagnostics, hover info, go-to-definition, and code navigation",
+      "version": "0.1.0",
+      "category": "language-servers",
+      "keywords": ["ruby", "lsp", "ruby-lsp", "language-server"]
+    }
+  ]
+}

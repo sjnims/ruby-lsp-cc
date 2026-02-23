@@ -1,0 +1,27 @@
+{
+  "name": "ruby-lsp",
+  "version": "0.1.0",
+  "description": "ruby-lsp integration for Claude Code providing Ruby diagnostics, hover info, go-to-definition, and code navigation",
+  "author": {
+    "name": "Steve Nims",
+    "email": "sjnims@gmail.com",
+    "url": "https://github.com/sjnims"
+  },
+  "homepage": "https://github.com/sjnims/ruby-lsp-cc",
+  "repository": "https://github.com/sjnims/ruby-lsp-cc",
+  "license": "MIT",
+  "keywords": ["ruby", "lsp", "ruby-lsp", "language-server"],
+  "lspServers": {
+    "ruby": {
+      "command": "ruby-lsp",
+      "extensionToLanguage": {
+        ".rb": "ruby",
+        ".rake": "ruby",
+        ".gemspec": "ruby",
+        ".ru": "ruby"
+      },
+      "restartOnCrash": true,
+      "maxRestarts": 3
+    }
+  }
+}
